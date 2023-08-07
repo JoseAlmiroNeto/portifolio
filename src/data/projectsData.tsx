@@ -1,32 +1,30 @@
-import Project from "../assets/project.png";
-
 export const ProjectsData = [
   {
-    img: Project,
-    title: "tgrstudio",
+    img: "https://i.imgur.com/VlyueDU.png",
+    title: "TGR Studio",
     description: "Descrição do projeto",
-    tags: ["React", "TypeScript", "TailwindCSS", "Next13"],
-    link: ""
+    tags: ["React", "TypeScript", "TailwindCSS", "Next13", "Shadcn"],
+    link: "https://github.com/JoseAlmiroNeto/tgrstudio-teste",
   },
   {
-    img: Project,
-    title: "tgrstudio",
+    img: "https://i.imgur.com/asvAvHM.png",
+    title: "MKT",
     description: "Descrição do projeto",
     tags: ["React", "TypeScript", "TailwindCSS", "Next13"],
-    link: ""
+    link: "https://github.com/JoseAlmiroNeto/front-MKT",
   },
   {
-    img: "",
-    title: "tgrstudio",
+    img: "https://i.imgur.com/PRHdorW.png",
+    title: "GitHub Finder",
     description: "Descrição do projeto",
     tags: ["React", "TypeScript", "TailwindCSS", "Next13"],
-    link: ""
+    link: "https://github.com/JoseAlmiroNeto/api-github",
   },
   {
-    img: "",
-    title: "tgrstudio",
+    img: "https://i.imgur.com/sPa2hsk.png",
+    title: "Ficha OR",
     description: "Descrição do projeto",
     tags: ["React", "TypeScript", "TailwindCSS", "Next13"],
-    link: ""
+    link: "https://github.com/JoseAlmiroNeto/ficha-ordo-realitas",
   },
 ];

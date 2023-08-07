@@ -27,9 +27,11 @@ export function Projects() {
                 className="w-full h-full"
               >
                 <Image
-                  src={project.img}
+                  src="https://i.imgur.com/XAjmRFv.jpg"
+                  width={900}
+                  height={900}
                   alt="project"
-                  className="w-full h-2/3 object-cover"
+                  className="w-full h-2/3 rounded-t object-cover"
                 />
                 <div className="w-full h-1/3 flex flex-col justify-evenly border-t px-6">
                   <h2 className="text-xl 2xl:text-4xl font-bold">
