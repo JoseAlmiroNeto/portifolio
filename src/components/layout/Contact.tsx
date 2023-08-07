@@ -26,8 +26,8 @@ export function Contact() {
       <div className="w-full xs:w-[48%] space-y-2">
         <SubTitle>Let’s Work Together</SubTitle>
         <p>
-          I'm excited to learn more about your projects and exciting ideas too!
-          Feel free to leave a message below, and let's start an amazing
+          I´m excited to learn more about your projects and exciting ideas too!
+          Feel free to leave a message below, and let´s start an amazing
           collaboration together...
         </p>
         <div className="flex gap-2">
