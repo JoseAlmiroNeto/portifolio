@@ -37,7 +37,7 @@ export function Projects() {
                       return (
                         <p
                           key={index}
-                          className="bg-white rounded py-[2px] px-1 text-xs 2xl:text-base"
+                          className="bg-zinc-50 rounded py-[2px] px-1 text-xs 2xl:text-base"
                         >
                           {tag}
                         </p>

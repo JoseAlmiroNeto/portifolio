@@ -10,7 +10,7 @@ export function Card({ children, className }: ICard) {
   return (
     <div
       className={twMerge(
-        "h-16 flex items-center justify-center border border-white rounded cursor-default hover:scale-105 hover:transition-transform",
+        "h-16 flex items-center justify-center border rounded cursor-default hover:scale-105 hover:transition-transform",
         className
       )}
     >

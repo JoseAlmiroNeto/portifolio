@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`overflow-y-scroll scrollbar ${inter.className}`} style={{background: "#000", color: "#FFF"}}>{children}</body>
+      <body className={`overflow-y-scroll scrollbar ${inter.className}`}>{children}</body>
     </html>
   )
 }

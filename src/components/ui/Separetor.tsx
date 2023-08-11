@@ -6,6 +6,6 @@ interface ISeparetor {
 
 export function Separetor({ className }: ISeparetor) {
   return (
-    <div className={twMerge("w-20 h-1 bg-black dark:bg-white", className)} />
+    <div className={twMerge("w-20 h-1 border", className)} />
   );
 }
