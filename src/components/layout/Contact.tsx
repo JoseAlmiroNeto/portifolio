@@ -21,7 +21,7 @@ export function Contact() {
   }, []);
 
   return (
-    <main className="mt-28 mb-10 flex flex-col xs:flex-row gap-8" data-aos="zoom-in-up">
+    <main className="mt-28 mb-10 flex flex-col xs:flex-row gap-8">
       <div className="w-full xs:w-[48%] space-y-2">
         <SubTitle>Let’s Work Together</SubTitle>
         <p>
