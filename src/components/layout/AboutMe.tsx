@@ -29,7 +29,7 @@ export function AboutMe() {
       <Image
         src={User}
         alt="user"
-        className="w-1/3 max-h-full object-contain"
+        className="w-[35%] max-h-full object-contain"
       />
     </main>
   );
