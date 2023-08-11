@@ -11,7 +11,7 @@ export function Skills() {
       <div className="w-full flex flex-wrap justify-between gap-4 py-4">
         {Languages.map((language, index) => {
           return (
-            <Card className="w-[46%] xs:w-[48%] h-16 gap-1" key={index}>
+            <Card className="w-[46%] xs:w-[48%] h-10 xs:h-16 text-base xs:text-xl 2xl:text-2xl gap-1" key={index}>
               {language.icon} {language.language}
             </Card>
           );

@@ -7,12 +7,6 @@ import { ProjectsData } from "../../data/projectsData";
 import { Pagination } from "../functions/Pagination";
 
 export function Projects() {
-  const items = Array.from({ length: 10 }, (_, index) => (
-    <div key={index} className="bg-gray-200 p-4">
-      Conteúdo {index + 1}
-    </div>
-  ));
-
   return (
     <main className="mt-20" data-aos="fade-up">
       <SubTitle>Projects</SubTitle>
@@ -37,16 +31,16 @@ export function Projects() {
                   <h2 className="text-xl 2xl:text-4xl font-bold">
                     {project.title}
                   </h2>
-                  <p className="text-sm 2xl:text-xl">{project.description}</p>
-                  <div className="flex gap-2 text-base text-black">
+                  {/* <p className="text-sm 2xl:text-xl">{project.description}</p> */}
+                  <div className="w-full flex flex-wrap gap-2 text-base font-semibold text-black">
                     {project.tags.map((tag, index) => {
                       return (
-                        <button
+                        <p
                           key={index}
                           className="bg-white rounded py-[2px] px-1 text-xs 2xl:text-base"
                         >
                           {tag}
-                        </button>
+                        </p>
                       );
                     })}
                   </div>

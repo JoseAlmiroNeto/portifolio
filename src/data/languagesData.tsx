@@ -10,28 +10,28 @@ export const Languages = [
     icon: <FaHtml5 />,
   },
   {
-    language: "Node.js",
-    icon: <FaNodeJs />,
-  },
-  {
     language: "CSS3",
     icon: <DiCss3 />,
-  },
-  {
-    language: "React",
-    icon: <DiReact />,
-  },
-  {
-    language: "Firebase",
-    icon: <DiFirebase />,
   },
   {
     language: "JavaScript",
     icon: <RiJavascriptFill />,
   },
   {
+    language: "React",
+    icon: <DiReact />,
+  },
+  {
     language: "TypeScript",
     icon: <BiLogoTypescript />,
+  },
+  {
+    language: "NoSQL",
+    icon: <DiFirebase />,
+  },
+  {
+    language: "Node.js",
+    icon: <FaNodeJs />,
   },
   {
     language: "Next.js",

@@ -10,7 +10,6 @@ import { TextArea } from "../ui/TextArea";
 import {
   AiFillInstagram,
   AiFillGithub,
-  AiOutlineArrowRight,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
@@ -49,8 +48,8 @@ export function Contact() {
         <Input type="text" placeholder="Name" />
         <Input type="email" placeholder="E-mail" />
         <TextArea placeholder="Messege" rows={5} />
-        <Button className="font-bold text-sm">
-          Send Messege <AiOutlineArrowRight />
+        <Button className="font-bold text-sm py-1">
+          Send Messege 
         </Button>
       </form>
     </main>

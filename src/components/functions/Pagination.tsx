@@ -21,7 +21,7 @@ export function Pagination ({ items, itemsPerPage }: PaginationProps) {
 
   return (
     <div>
-      <div className="flex flex-wrap justify-between gap-8 py-4">
+      <div className="flex flex-wrap justify-between gap-4 lg:gap-8 py-4">
         {currentItems}
       </div>
       <nav className="flex justify-center">
