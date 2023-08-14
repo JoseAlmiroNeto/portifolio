@@ -43,7 +43,7 @@ export function AboutMe() {
           <Link
             href="https://github.com/JoseAlmiroNeto"
             target="_blank"
-            className="bg-white text-black text-sm 2xl:text-base p-1 2xl:px-3 2xl:py-2 rounded"
+            className="bg-white text-black text-sm 2xl:text-base p-1 2xl:px-3 2xl:py-2 rounded border"
           >
             Learn More
           </Link>
